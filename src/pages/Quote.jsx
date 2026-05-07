@@ -102,7 +102,9 @@ const Quote = () => {
     try {
       await saveSubmission("quote_requests", payload);
       await emailjs.send(SVC, TPL, payload, KEY);
-      await emailjs.send(SVC, CTPL, payload, KEY);
+      emailjs.send(SVC, CTPL, payload, KEY).catch((e) =>
+        console.warn("[confirmation email failed — non-fatal]", e)
+      );
       setStatus("success");
     } catch {
       setStatus("error");

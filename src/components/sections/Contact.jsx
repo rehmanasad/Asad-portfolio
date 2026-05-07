@@ -48,7 +48,9 @@ const Contact = () => {
     try {
       await saveSubmission("contact_messages", payload);
       await emailjs.send(SVC, TPL, payload, KEY);
-      await emailjs.send(SVC, CTPL, payload, KEY);
+      emailjs.send(SVC, CTPL, payload, KEY).catch((e) =>
+        console.warn("[confirmation email failed — non-fatal]", e)
+      );
       setStatus("success");
       setFormData({ fullname: "", email: "", message: "" });
     } catch {

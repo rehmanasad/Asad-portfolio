@@ -24,8 +24,8 @@
 ## 🛠 Local Development
 
 ```bash
-git clone https://github.com/<your-username>/asad-ur-rehman-portfolio.git
-cd asad-ur-rehman-portfolio
+git clone https://github.com/rehmanasad/Asad-portfolio.git
+cd Asad-portfolio
 npm install
 cp .env.example .env       # then fill in the keys (see below)
 npm run dev                # http://localhost:5173

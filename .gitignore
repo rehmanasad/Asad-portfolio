@@ -6,6 +6,9 @@
 .env.test.local
 .env.production.local
 
+# ─── Claude Code (local-only IDE settings) ────────────────────────────────────
+.claude/
+
 # ─── Dependencies ─────────────────────────────────────────────────────────────
 node_modules/
 .pnp
