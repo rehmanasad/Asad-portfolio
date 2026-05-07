@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -rf .git)",
+      "Bash(git clone *)",
+      "Bash(git -c http.version=HTTP/1.1 clone https://github.com/QuantumBreakz/Hassan-Ali-Murtaza-Portfolio.git .)",
+      "Bash(npm install *)"
+    ]
+  }
+}
