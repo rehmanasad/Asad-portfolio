@@ -110,7 +110,7 @@ const Navbar = () => {
             animate={{ opacity: 1, x: 0 }}
             className="flex items-center gap-3"
           >
-            <img src="/logo.png" alt="AUR Logo" className="w-10 h-10 object-contain rounded-md" />
+            <img src="/logo.svg" alt="AUR Logo" className="w-10 h-10 object-contain rounded-md" />
             <div className="text-[var(--text-color)] font-bold text-lg md:text-xl tracking-tighter">
               Asad ur Rehman<span className="text-brand-primary">.</span>
             </div>

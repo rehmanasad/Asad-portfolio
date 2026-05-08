@@ -88,12 +88,6 @@ You'll view submissions in the Firebase Console → Firestore Database tab.
 
 The included [`vercel.json`](./vercel.json) handles SPA rewrites for client-side routing.
 
-### Firebase Hosting (alternative — not used)
-
-The repo also includes a [`firebase.json`](./firebase.json) for Firebase Hosting. We don't use it (Vercel handles hosting) — it's harmless to keep, or you can delete it.
-
----
-
 ## 📁 Project structure
 
 ```

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0c27b"/>
+      <stop offset="100%" stop-color="#e0a85a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1080" cy="120" r="6" fill="url(#accent)"/>
+  <line x1="80" y1="500" x2="280" y2="500" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+  <text
+    x="80"
+    y="200"
+    font-family="'Outfit', Arial, sans-serif"
+    font-size="32"
+    font-weight="700"
+    fill="url(#accent)"
+    letter-spacing="8"
+  >SOFTWARE ENGINEER</text>
+  <text
+    x="80"
+    y="340"
+    font-family="'Outfit', Arial, sans-serif"
+    font-size="110"
+    font-weight="900"
+    fill="#ffffff"
+    font-style="italic"
+    letter-spacing="-4"
+  >ASAD UR REHMAN</text>
+  <text
+    x="80"
+    y="470"
+    font-family="'Outfit', Arial, sans-serif"
+    font-size="28"
+    font-weight="300"
+    fill="#9a9a9a"
+    letter-spacing="2"
+  >Full-Stack · AI · Data Engineering</text>
+  <text
+    x="80"
+    y="560"
+    font-family="'Outfit', Arial, sans-serif"
+    font-size="20"
+    font-weight="500"
+    fill="#666"
+    letter-spacing="3"
+  >asad-portfolio-peach.vercel.app</text>
+</svg>
